@@ -38,15 +38,7 @@ p{
     margin: auto;
 }
 
-.section-head {
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
 /* Navigation Bar */
-
-.navbar {
-}
 
 .navbar-brand {
     font-family: "Ubuntu";
@@ -154,7 +146,7 @@ p{
     }
 }
 
-@media (max-width: 530px) {
+@media (max-width: 520px) {
     .size {
         height: 250px;
     }
@@ -163,6 +155,28 @@ p{
     }
     .img2 {
         width: 80%;
+    }
+    .navbar-brand {
+        font-family: "Ubuntu";
+        font-size: 3.5rem;
+        font-weight: bold;
+        padding-left: 2rem;
+    }
+    
+    .nav-link {
+        font-size: 1.75rem;
+    }
+
+    .big-head {
+        font-size: 3.65rem;
+        line-height: 1.75;
+        padding: 2rem 0;
+        margin: auto;
+    }
+
+    h3 {
+        font-weight: bolder;
+        font-size: 1.8rem;
     }
 }
 
